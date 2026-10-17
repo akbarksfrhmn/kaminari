@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Loading state disables submission",
+    "pass": true
+  },
+  {
+    "name": "HTTP error preserves entered details",
+    "pass": true
+  },
+  {
+    "name": "200 response without explicit confirmation remains an error",
+    "pass": true
+  },
+  {
+    "name": "Explicit successful response shows success and clears form",
+    "pass": true
+  }
+]

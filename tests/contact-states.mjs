@@ -1,0 +1,40 @@
+import { createRequire } from 'node:module';
+import { mkdirSync, writeFileSync } from 'node:fs';
+const require = createRequire(new URL('../package.json', import.meta.url));
+const { chromium } = require('@playwright/test');
+mkdirSync(new URL('../test-results/', import.meta.url), { recursive: true });
+const browser = await chromium.launch({ ...(process.env.BROWSER_PATH ? { executablePath: process.env.BROWSER_PATH } : { channel: 'chrome' }), headless: true });
+const context = await browser.newContext();
+const page = await context.newPage();
+const results = [];
+let mode = 'error';
+await page.route('**/api/inquiry', async route => {
+  await new Promise(resolve=>setTimeout(resolve,800));
+  if(mode === 'error') await route.fulfill({status:503,contentType:'application/json',body:'{"success":false}'});
+  else if(mode === 'unconfirmed') await route.fulfill({status:200,contentType:'application/json',body:'{}'});
+  else await route.fulfill({status:200,contentType:'application/json',body:'{"success":true}'});
+});
+try {
+  await page.goto('http://localhost:3001/contact/');
+  await page.locator('#name').fill('QA test');
+  await page.locator('#email').fill('qa@example.com');
+  await page.locator('#company').fill('QA company');
+  await page.locator('#service').selectOption('ai-automation');
+  await page.locator('#description').fill('Testing delivery states using intercepted browser responses only.');
+  await page.getByRole('button',{name:'Send Project Inquiry'}).click();
+  results.push({name:'Loading state disables submission',pass:await page.getByRole('button',{name:'Sending Inquiry…'}).isDisabled()});
+  await page.locator('.form-status.error').waitFor();
+  results.push({name:'HTTP error preserves entered details',pass:await page.locator('#name').inputValue()==='QA test' && await page.locator('.form-status.error').innerText().then(t=>t.includes('couldn’t confirm delivery'))});
+  mode = 'unconfirmed';
+  await page.getByRole('button',{name:'Send Project Inquiry'}).click();
+  await page.locator('.form-status.error').waitFor();
+  results.push({name:'200 response without explicit confirmation remains an error',pass:await page.locator('.form-status.error').isVisible()});
+  mode = 'success';
+  await page.getByRole('button',{name:'Send Project Inquiry'}).click();
+  await page.getByRole('status').filter({hasText:'Your project inquiry has been sent'}).waitFor();
+  results.push({name:'Explicit successful response shows success and clears form',pass:await page.locator('#name').inputValue()===''});
+} catch(error) { results.push({name:'Execution',pass:false,error:error.stack}); }
+await browser.close();
+writeFileSync(new URL('../test-results/contact-results.json',import.meta.url),JSON.stringify(results,null,2));
+if (results.some(x=>!x.pass)) process.exitCode = 1;
+console.log(JSON.stringify(results,null,2));

@@ -1,0 +1,1 @@
+export default function Loading() { return <section className="container page-hero" role="status"><p className="eyebrow">KAMINARI CREATIVE STUDIO</p><p className="loading-text">Loading the page…</p></section>; }

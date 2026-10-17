@@ -1,0 +1,767 @@
+{
+  "layouts": [
+    {
+      "width": 360,
+      "path": "/",
+      "status": 200,
+      "viewport": 360,
+      "scroll": 360,
+      "h1": "MAKE IDEAS\nSTRIKE.",
+      "title": "Make Ideas Strike.",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "path": "/services/",
+      "status": 200,
+      "viewport": 360,
+      "scroll": 360,
+      "h1": "GOOD IDEAS.\nBUILT WITH INTENT.",
+      "title": "Services | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "path": "/work/",
+      "status": 200,
+      "viewport": 360,
+      "scroll": 360,
+      "h1": "SELECTED WORK.\nREAL INTENT.",
+      "title": "Work | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "path": "/kaminari-flow/",
+      "status": 200,
+      "viewport": 360,
+      "scroll": 360,
+      "h1": "Kaminari\nFlow.",
+      "title": "Kaminari Flow | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "path": "/contact/",
+      "status": 200,
+      "viewport": 360,
+      "scroll": 360,
+      "h1": "EVERY BUILD\nSTARTS WITH\nA CONVERSATION.",
+      "title": "Contact | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "status": 200,
+      "viewport": 768,
+      "scroll": 768,
+      "h1": "MAKE IDEAS\nSTRIKE.",
+      "title": "Make Ideas Strike.",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/services/",
+      "status": 200,
+      "viewport": 768,
+      "scroll": 768,
+      "h1": "GOOD IDEAS.\nBUILT WITH INTENT.",
+      "title": "Services | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/work/",
+      "status": 200,
+      "viewport": 768,
+      "scroll": 768,
+      "h1": "SELECTED WORK.\nREAL INTENT.",
+      "title": "Work | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/kaminari-flow/",
+      "status": 200,
+      "viewport": 768,
+      "scroll": 768,
+      "h1": "Kaminari\nFlow.",
+      "title": "Kaminari Flow | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "path": "/contact/",
+      "status": 200,
+      "viewport": 768,
+      "scroll": 768,
+      "h1": "EVERY BUILD\nSTARTS WITH\nA CONVERSATION.",
+      "title": "Contact | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/",
+      "status": 200,
+      "viewport": 1024,
+      "scroll": 1024,
+      "h1": "MAKE IDEAS\nSTRIKE.",
+      "title": "Make Ideas Strike.",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/services/",
+      "status": 200,
+      "viewport": 1024,
+      "scroll": 1024,
+      "h1": "GOOD IDEAS.\nBUILT WITH INTENT.",
+      "title": "Services | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/work/",
+      "status": 200,
+      "viewport": 1024,
+      "scroll": 1024,
+      "h1": "SELECTED WORK.\nREAL INTENT.",
+      "title": "Work | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/kaminari-flow/",
+      "status": 200,
+      "viewport": 1024,
+      "scroll": 1024,
+      "h1": "Kaminari\nFlow.",
+      "title": "Kaminari Flow | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "path": "/contact/",
+      "status": 200,
+      "viewport": 1024,
+      "scroll": 1024,
+      "h1": "EVERY BUILD\nSTARTS WITH\nA CONVERSATION.",
+      "title": "Contact | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "viewport": 1440,
+      "scroll": 1440,
+      "h1": "MAKE IDEAS\nSTRIKE.",
+      "title": "Make Ideas Strike.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/services/",
+      "status": 200,
+      "viewport": 1440,
+      "scroll": 1440,
+      "h1": "GOOD IDEAS.\nBUILT WITH INTENT.",
+      "title": "Services | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/work/",
+      "status": 200,
+      "viewport": 1440,
+      "scroll": 1440,
+      "h1": "SELECTED WORK.\nREAL INTENT.",
+      "title": "Work | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/kaminari-flow/",
+      "status": 200,
+      "viewport": 1440,
+      "scroll": 1440,
+      "h1": "Kaminari\nFlow.",
+      "title": "Kaminari Flow | Kaminari Creative Studio",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "path": "/contact/",
+      "status": 200,
+      "viewport": 1440,
+      "scroll": 1440,
+      "h1": "EVERY BUILD\nSTARTS WITH\nA CONVERSATION.",
+      "title": "Contact | Kaminari Creative Studio",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "path": "/",
+      "violations": []
+    },
+    {
+      "path": "/services/",
+      "violations": []
+    },
+    {
+      "path": "/work/",
+      "violations": []
+    },
+    {
+      "path": "/kaminari-flow/",
+      "violations": []
+    },
+    {
+      "path": "/contact/",
+      "violations": []
+    }
+  ],
+  "links": [
+    {
+      "from": "/",
+      "text": "Skip to content",
+      "href": "#main",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "KAMINARI.CREATIVE STUDIO",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Home",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Explore Our Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Let’s Build Something",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Meet the studio",
+      "href": "#services",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "01AI AutomationHelp your business streamline repetitive processes using AI and workflow automation.",
+      "href": "/services/#ai-automation",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "02Website & Digital ProductsThoughtful websites, landing pages, MVPs, and digital tools built for the way your business works.",
+      "href": "/services/#websites-digital-products",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "03Creative TechnologyDesign and technology brought together to create distinctive digital experiences.",
+      "href": "/services/#creative-technology",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "04Digital StrategyIdentify opportunities and define practical digital solutions aligned with your business goals.",
+      "href": "/services/#digital-strategy",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "View Our Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "KAMINARI / PRODUCT LAB01kaminariflowKNOWLEDGE, CONNECTED.CONCEPT VISUALInternal productIn developmentKaminari FlowAI Automation / Product DevelopmentAn AI customer support system designed to retrieve relevant business knowledge, respond to customer inquiries, and persist conversations.AIRAGOpenAISupabase",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Explore Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Start a Project",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "KAMINARI.",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Skip to content",
+      "href": "#main",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "KAMINARI.CREATIVE STUDIO",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Home",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Find your starting point ↓",
+      "href": "#ai-automation",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Discuss a Project",
+      "href": "/contact/?service=ai-automation",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Discuss a Project",
+      "href": "/contact/?service=websites-digital-products",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Discuss a Project",
+      "href": "/contact/?service=creative-technology",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Discuss a Project",
+      "href": "/contact/?service=digital-strategy",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Start a Project",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "KAMINARI.",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/services/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Skip to content",
+      "href": "#main",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "KAMINARI.CREATIVE STUDIO",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Home",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "KAMINARI / PRODUCT LAB01kaminariflowKNOWLEDGE, CONNECTED.CONCEPT VISUALInternal productIn developmentKaminari FlowAI Automation / Product DevelopmentAn AI customer support system designed to retrieve relevant business knowledge, respond to customer inquiries, and persist conversations.AIRAGOpenAISupabase",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Start a Project",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "KAMINARI.",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/work/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Skip to content",
+      "href": "#main",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "KAMINARI.CREATIVE STUDIO",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Home",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Discuss an AI Automation Project",
+      "href": "/contact/?service=ai-automation",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Discuss Your Workflow",
+      "href": "/contact/?service=ai-automation",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Start a Project",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "KAMINARI.",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/kaminari-flow/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Skip to content",
+      "href": "#main",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "KAMINARI.CREATIVE STUDIO",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Home",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "KAMINARI.",
+      "href": "/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Services",
+      "href": "/services/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Work",
+      "href": "/work/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Kaminari Flow",
+      "href": "/kaminari-flow/",
+      "pass": true
+    },
+    {
+      "from": "/contact/",
+      "text": "Contact",
+      "href": "/contact/",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Escape closes menu and returns focus",
+      "pass": true
+    },
+    {
+      "name": "Close button closes menu",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation navigates and closes",
+      "pass": true
+    },
+    {
+      "name": "Service query preselects interest",
+      "pass": true
+    },
+    {
+      "name": "Empty form shows accessible errors and focuses name",
+      "pass": true
+    },
+    {
+      "name": "Invalid email rejected",
+      "pass": true
+    },
+    {
+      "name": "Development mode never claims submission",
+      "pass": true
+    },
+    {
+      "name": "Brief download works",
+      "pass": true
+    },
+    {
+      "name": "Custom 404 renders",
+      "pass": true
+    },
+    {
+      "name": "404 return link works",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
